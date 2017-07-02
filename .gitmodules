@@ -1,0 +1,3 @@
+[submodule "dpiegdon-kicad-modules"]
+	path = dpiegdon-kicad-modules
+	url = https://github.com/dpiegdon/kicad-modules.git
