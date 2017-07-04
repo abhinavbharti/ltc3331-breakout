@@ -1,4 +1,4 @@
-update=Sun 02 Jul 2017 04:19:55 PM UTC
+update=Tue 04 Jul 2017 12:42:33 AM UTC
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=dpiegdon-kicad-modules/library/linear_technology
+LibName31=dpiegdon-kicad-modules/library/on_semiconductor
