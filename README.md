@@ -1,8 +1,8 @@
 
-## Open, low-cost experimentation board for the LTC3331 power harvesting chip
+## Open, low-cost experimentation board for the LTC3331 energy harvesting chip
 	
 This project contains design- and production-files for a
-low-cost LTC3331 power harvesting development-, breakout- and test-board.
+low-cost LTC3331 energy harvesting development-, breakout- and test-board.
 
 It's specifically designed to be inexpensive, yet open and comprehensive:
 * Full design files for KiCad EDA
@@ -15,7 +15,11 @@ It's specifically designed to be inexpensive, yet open and comprehensive:
 
 ![PCB rendering from KiCad](https://github.com/dpiegdon/ltc3331-breakout/blob/master/production/ltc3331-breakout-v0.1.jpg?raw=true)
 
-(Image rendered by KiCad EDA)
+(Above: v0.1, image rendered by KiCad EDA)
+
+![PCB rendering from KiCad](https://github.com/dpiegdon/ltc3331-breakout/blob/master/production/ltc3331-breakout-v0.1.photo.jpg?raw=true)
+
+(Above: v0.1, actual photo of both sides)
 
 
 
@@ -26,9 +30,29 @@ production/ directory. All required production files for
 PCB production should be zipped in a way that allows immediate upload
 to your preferred online PCB manufacturer.
 
-v0.1 is the FIRST version of the PCB that is on its way to me.
-Thus, design verification is pending.
-It should NOT be considered production-ready for now.
+v0.1 is the first version of the PCB. It has a few minor issues
+(see Errata), but is fine for testing.
+
+
+## Errata
+
+### v0.1
+
+v0.1 works fine, but there are a few issues that should be
+addressed for another release:
+
+* footprints for 22uF inductors on bottom layer are way too large.
+  a Taiyo-Yuden NR-30xx handsoldering footprint would be fine and should
+  be moved to the front side. then there would be no components on the bottom.
+
+* jumper for BBIN-BATIN connection probably is not needed.
+  TBD: verify from datasheet and then remove.
+
+* replace all capacitance footprints >= 10uF with larger
+  footprint for e.g. tantalum capacitor.
+
+* pdf schematic was missing in release files (was added later).
+  next release should contain that immediately.
 
 
 
