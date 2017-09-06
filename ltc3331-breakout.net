@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dpiegdon/programming/microcontroller/ltc3331-breakout/ltc3331-breakout.sch)
-    (date "Tue 04 Jul 2017 07:44:19 PM UTC")
+    (date "Tue 05 Sep 2017 11:59:49 PM UTC")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -113,7 +113,7 @@
       (tstamp 595C484B))
     (comp (ref L2)
       (value 22uH)
-      (footprint Inductors:Inductor_Wurth_HCI-1890)
+      (footprint Inductors:Inductor_Taiyo-Yuden_NR-30xx_HandSoldering)
       (libsource (lib device) (part L))
       (sheetpath (names /) (tstamps /))
       (tstamp 595CA64A))
@@ -125,7 +125,7 @@
       (tstamp 595CA8E7))
     (comp (ref L1)
       (value 22uH)
-      (footprint Inductors:Inductor_Wurth_HCI-1890)
+      (footprint Inductors:Inductor_Taiyo-Yuden_NR-30xx_HandSoldering)
       (libsource (lib device) (part L))
       (sheetpath (names /) (tstamps /))
       (tstamp 595CB8BF))
@@ -644,12 +644,12 @@
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical linear_technology)
+      (uri /home/dpiegdon/programming/microcontroller/ltc3331-breakout/dpiegdon-kicad-modules/library/linear_technology.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical on_semiconductor)
-      (uri /home/dpiegdon/programming/microcontroller/ltc3331-breakout/dpiegdon-kicad-modules/library/on_semiconductor.lib))
-    (library (logical linear_technology)
-      (uri /home/dpiegdon/programming/microcontroller/ltc3331-breakout/dpiegdon-kicad-modules/library/linear_technology.lib)))
+      (uri /home/dpiegdon/programming/microcontroller/ltc3331-breakout/dpiegdon-kicad-modules/library/on_semiconductor.lib)))
   (nets
     (net (code 1) (name /IPK0)
       (node (ref J7) (pin 1))

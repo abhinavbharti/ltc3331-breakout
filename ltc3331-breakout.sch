@@ -520,7 +520,7 @@ U 1 1 595CA64A
 P 4850 5250
 F 0 "L2" V 4800 5250 50  0000 C CNN
 F 1 "22uH" V 4925 5250 50  0000 C CNN
-F 2 "Inductors:Inductor_Wurth_HCI-1890" H 4850 5250 50  0001 C CNN
+F 2 "Inductors:Inductor_Taiyo-Yuden_NR-30xx_HandSoldering" H 4850 5250 50  0001 C CNN
 F 3 "" H 4850 5250 50  0001 C CNN
 	1    4850 5250
 	0    -1   1    0   
@@ -546,7 +546,7 @@ U 1 1 595CB8BF
 P 3450 5250
 F 0 "L1" V 3400 5250 50  0000 C CNN
 F 1 "22uH" V 3525 5250 50  0000 C CNN
-F 2 "Inductors:Inductor_Wurth_HCI-1890" H 3450 5250 50  0001 C CNN
+F 2 "Inductors:Inductor_Taiyo-Yuden_NR-30xx_HandSoldering" H 3450 5250 50  0001 C CNN
 F 3 "" H 3450 5250 50  0001 C CNN
 	1    3450 5250
 	0    1    1    0   
