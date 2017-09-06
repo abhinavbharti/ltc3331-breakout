@@ -13,11 +13,11 @@ It's specifically designed to be inexpensive, yet open and comprehensive:
 * All default options can be jumpered on or off
 * Supercap pads provided
 
-![PCB rendering from KiCad](https://github.com/dpiegdon/ltc3331-breakout/blob/master/production/ltc3331-breakout-v0.1.jpg?raw=true)
+![PCB v0.1 rendering from KiCad](https://github.com/dpiegdon/ltc3331-breakout/blob/master/production/ltc3331-breakout-v0.1.jpg?raw=true)
 
 (Above: v0.1, image rendered by KiCad EDA)
 
-![PCB rendering from KiCad](https://github.com/dpiegdon/ltc3331-breakout/blob/master/production/ltc3331-breakout-v0.1.photo.jpg?raw=true)
+![PCB v0.1 photo](https://github.com/dpiegdon/ltc3331-breakout/blob/master/production/ltc3331-breakout-v0.1.photo.jpg?raw=true)
 
 (Above: v0.1, actual photo of both sides)
 
