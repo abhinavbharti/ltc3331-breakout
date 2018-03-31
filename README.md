@@ -41,15 +41,36 @@ v0.1 is the first version of the PCB. It has a few minor issues
 v0.1 works fine, but there are a few issues that should be
 addressed for another release:
 
+Schematic:
+
+* jumper for BBIN-BATIN connection is not needed.
+
+* scatter more GND connectors for oscilloscope use
+
+PCB Placement/Routing:
+
 * footprints for 22uF inductors on bottom layer are way too large.
   a Taiyo-Yuden NR-30xx handsoldering footprint would be fine and should
   be moved to the front side. then there would be no components on the bottom.
 
-* jumper for BBIN-BATIN connection probably is not needed.
-  TBD: verify from datasheet and then remove.
-
 * replace all capacitance footprints >= 10uF with larger
   footprint for e.g. tantalum capacitor.
+
+* reorder all selection jumpers so they comply the the datasheet table
+
+* extra small header for GND/AC1/AC2/VIN
+
+* make cap footprints dual-use: through-hole AND smd?
+
+Silkscreen:
+
+* mark down input voltage limits (3-19V)
+
+* add white box for charge-current-resistor value placed by user
+
+* if enough place, print cap values (and voltage ratings?)
+
+Other:
 
 * pdf schematic was missing in release files (was added later).
   next release should contain that immediately.
