@@ -47,6 +47,11 @@ Schematic:
 
 * scatter more GND connectors for oscilloscope use
 
+* maybe provide circuit for higher current charging,
+  as seen in datasheet figure 7, pg 27?
+
+* extra small header for GND/AC1/AC2/VIN
+
 PCB Placement/Routing:
 
 * footprints for 22uF inductors on bottom layer are way too large.
@@ -57,8 +62,6 @@ PCB Placement/Routing:
   footprint for e.g. tantalum capacitor.
 
 * reorder all selection jumpers so they comply the the datasheet table
-
-* extra small header for GND/AC1/AC2/VIN
 
 * make cap footprints dual-use: through-hole AND smd?
 
