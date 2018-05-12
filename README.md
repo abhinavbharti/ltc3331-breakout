@@ -52,7 +52,7 @@ Schematic:
 
 * extra small header for GND/AC1/AC2/VIN
 
-PCB Placement/Routing:
+Footprints:
 
 * footprints for 22uF inductors on bottom layer are way too large.
   a Taiyo-Yuden NR-30xx handsoldering footprint would be fine and should
@@ -61,9 +61,11 @@ PCB Placement/Routing:
 * replace all capacitance footprints >= 10uF with larger
   footprint for e.g. tantalum capacitor.
 
-* reorder all selection jumpers so they comply the the datasheet table
-
 * make cap footprints dual-use: through-hole AND smd?
+
+PCB Placement / Routing:
+
+* reorder all selection jumpers so they comply the the datasheet table
 
 Silkscreen:
 
